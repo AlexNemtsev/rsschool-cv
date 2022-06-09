@@ -59,7 +59,7 @@ body {
     align-items: center;
 }
 
-#photo {
+.photo {
     width: 200px;
     height: 200px;
     border: 1px solid;
@@ -69,4 +69,17 @@ body {
     .section {
         width: 100%;
     }
+}
+
+/* .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+} */
+
+#profile {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
