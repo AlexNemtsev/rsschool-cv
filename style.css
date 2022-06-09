@@ -59,11 +59,11 @@ body {
     align-items: center;
 }
 
-.photo {
+/* .photo {
     width: 200px;
     height: 200px;
     border: 1px solid;
-}
+} */
 
 @media (max-width: 768px) {
     .section {
@@ -71,15 +71,15 @@ body {
     }
 }
 
-/* .section-profile {
+.section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
-} */
+}
 
-#profile {
+/* #profile {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
