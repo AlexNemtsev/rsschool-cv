@@ -3,9 +3,11 @@
 
 ### Contacts:
 
+* Location: Moscow, Russia
 * E-mail: aleknemtsev@yandex.ru
-* telegram: @aleknemtsev
-* Discord: AlexNemtsev
+* telegram: [@aleknemtsev](https://t.me/aleknemtsev)
+* GitHub: [AlexNemtsev](https://github.com/AlexNemtsev)
+* Discord: AlexNemtsev #0425
 
 ---
 
@@ -37,6 +39,12 @@ String bool_to_word (bool boolean) {
 JSC XXXXXX, Moscow   
 December 2019-present   
 Engineer-technologist
+
+---
+
+### Projects
+
+[Pomodoro timers for smartphones](https://github.com/AlexNemtsev/pomodoro)
 
 ---
 
