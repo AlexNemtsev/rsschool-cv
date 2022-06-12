@@ -17,7 +17,10 @@
                 <ul class="nav-list">
                     <li><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li><a href="#summary" class="nav-link">Summary</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code" class="nav-link">Code</a></li>
                     <li><a href="#work-expirience" class="nav-link">Work expirience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#education" class="nav-link">Education</a></li>
                     <li><a href="#languages" class="nav-link">Languages</a></li>
                 </ul>
@@ -34,12 +37,6 @@
                     <h3>Junior Front-end Developer</h3>
                 </div>
             </section>
-            <!-- <section class="section photo"><img src="" alt="profile photo"></section>
-            <section class="section" id="profile">
-                <h1>Aleksandr Nemtsev</h1>
-                <h3>Junior Front-end Developer</h3>
-                <p></p>
-            </section> -->
             <section class="section" id="contacts">
                 <h2>Contacts</h2>
                 <ul class="contacts">
@@ -52,13 +49,51 @@
             </section>
             <section class="section" id="summary">
                 <h2>Summary</h2>
-                <p></p>
+                <p> I'm going to become a front-end developer. I started my way from Dart and Flutter
+                    for multiplatform development because I like to work with UI. But because these
+                    technologies are relatively new and not such popular I've decided to learn more
+                    in demand technologies.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <dl>
+                    <dt>Multiplatform devlopment:</dt>
+                    <dd>
+                        Dart, Flutter, Provider, BLoC, SQLite
+                    </dd>
+                    <dt>Web development:</dt>
+                    <dd>
+                        HTML 5, CSS
+                    </dd>
+                    <dt>Version control:</dt>
+                    <dd>Git, GitHub</dd>
+
+                </dl>
+            </section>
+            <section class="section" id="code">
+                <h2>Code</h2>
+                <code>
+                    <span class="type">String</span> <span class="func-name">bool_to_word</span> 
+                    <span class="bracket">(</span><span class="type">bool</span> 
+                    <span class="var-name">boolean</span><span class="bracket">) {</span>
+                    <br>
+                    <span class="return">&nbsp;&nbsp;return</span> <span class="var-name">boolean</span> ? 
+                    <span class="data">'Yes'</span> : <span class="data">'No'</span>;
+                    <br>
+                    <span class="bracket">}</span>
+            </code>
             </section>
             <section class="section" id="work-expirience">
                 <h2>Work experience</h2>
                 <p>JSC XXXXXX, Moscow</p>
                 <p>December 2019-present</p>
                 <p>Engineer-technologis</p>
+            </section>
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <p><a href="https://github.com/AlexNemtsev/pomodoro" target="_blank">Pomodoro timer for smartphones</a>
+                </p>
             </section>
             <section class="section" id="education">
                 <h2>Education</h2>
@@ -74,7 +109,12 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container footer-container">
+            <div class="section">&copy; 2022, <a href="https://github.com/AlexNemtsev" target="_blank">AlexNemtsev</a>
+            </div>
+            <div class="section"><a href="https://rs.school/js/" target="_blank"><img
+                        src="assets/images/rs_school_js.svg" alt="Logo" width="100"></a></div>
+        </div>
     </footer>
 </body>
 
