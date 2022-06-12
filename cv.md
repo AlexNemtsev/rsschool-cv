@@ -9,16 +9,34 @@
 
 ---
 
-### About myself:
+### Summary:
 
-* Birth date: 24.03.1995
-* Location: Moscow, Russia
+I'm going to become a front-end developer. I started my way from Dart and Flutter for multiplatform development because I like to work with UI. But because these technologies are relatively new and not such popular I've decided to learn more in demand technologies.
+
+---
+
+### Skills:
+
+* Multiplatform devlopment:Dart, Flutter, Provider, BLoC, SQLite
+* Web development: HTML 5, CSS
+* Version control: Git, GitHub
+
+---
+
+### Code:
+
+```dart
+String bool_to_word (bool boolean) {
+  return boolean ? 'Yes' : 'No';
+}
+```
+
+---
 
 ### Work experience:
 JSC XXXXXX, Moscow   
 December 2019-present   
-Engineer-technologist   
-Responsibilities: development of technological documentation for printed circuit boards production.
+Engineer-technologist
 
 ---
 
