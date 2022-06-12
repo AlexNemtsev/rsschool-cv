@@ -17,16 +17,10 @@ body {
     justify-content: space-between;
 }
 
-.header {
-    border: 1px solid red;
-}
-
 .main {
-    border: 1px solid red;
-}
-
-.footer {
-    border: 1px solid red;
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0;
 }
 
 .container {
